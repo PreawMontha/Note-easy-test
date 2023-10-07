@@ -2,6 +2,8 @@
 
  [Link Web]( https://note-easy.netlify.app/ )
  
+ ![Screenshot 2023-10-07 230720](https://github.com/PreawMontha/note-easy-test/assets/117275084/eed9ba23-98ae-42d2-bd83-ed1fdbe39150)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
