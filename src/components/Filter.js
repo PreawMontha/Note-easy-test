@@ -91,13 +91,9 @@ export default function Filter() {
                     {data?.body}
                   </p>
                   <div className="w-full flex mt-16 ml-12">
-                    <MdDateRange className=" text-xl text-slate-100 mr-2" />
-                    <small className="font-extralight  text-[#f8fafc]">
-                      {new Date(data?.createdAt).toLocaleDateString("en-US", {
-                        day: "numeric",
-                        month: "numeric",
-                        year: "numeric",
-                      })}
+                    <MdDateRange className=" text-xl text-slate-100 mr-2 " />
+                    <small className=" font-semibold text-[#f8fafc]">
+                      {new Date(data?.createdAt).toLocaleString("th-TH", {})}
                     </small>
                   </div>
                 </div>
