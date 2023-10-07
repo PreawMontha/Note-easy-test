@@ -90,9 +90,9 @@ export default function Filter() {
                   <p className="font-light text-md mt-3 ml-5 mr-4 text-[#f8fafc]">
                     {data?.body}
                   </p>
-                  <div className="w-full flex mt-16 ml-12">
+                  <div className="w-full flex mt-16 ml-7">
                     <MdDateRange className=" text-xl text-slate-100 mr-2 " />
-                    <small className=" font-semibold text-[#f8fafc]">
+                    <small className=" font-semibold text-[#f8fafc] ">
                       {new Date(data?.createdAt).toLocaleString("th-TH", {})}
                     </small>
                   </div>
